@@ -14,8 +14,4 @@
     <None Remove="obj\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="bin\publish\" />
-  </ItemGroup>
-
 </Project>
