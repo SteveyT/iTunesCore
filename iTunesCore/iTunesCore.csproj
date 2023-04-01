@@ -9,14 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="obj\publish\win-x64\iTunesCore.csproj.nuget.dgspec.json" />
-    <Content Include="obj\publish\win-x64\project.assets.json" />
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="obj\publish\win-x64\iTunesCore.csproj.nuget.g.props" />
-    <None Include="obj\publish\win-x64\iTunesCore.csproj.nuget.g.targets" />
-    <None Include="obj\publish\win-x64\project.nuget.cache" />
+    <Folder Include="bin\publish\" />
   </ItemGroup>
 
 </Project>
