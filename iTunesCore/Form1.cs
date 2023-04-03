@@ -44,8 +44,8 @@ namespace iTunesCore
                         {
                             var track = nodes.ParseTrack(node);
                             model.Add(track);
-
-                            treeView1.Nodes.Add(counter++ + " " + track.Artist + " - " + track.Name);
+                            treeView1.Nodes.Add(counter++ + ") " + track.Artist + " - " + track.Name)
+                                .Nodes.Add("Album" + track.Album);
                         }
 
                         label1.Text += " " + model.Count;
